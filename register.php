@@ -11,8 +11,6 @@ include("class/Constant.php");
             echo $_POST[$data];
         } 
     }
-
-
     if(isset($_POST['registerButton'])){
         $username = $_POST['username'];
         $email = $_POST['email'];

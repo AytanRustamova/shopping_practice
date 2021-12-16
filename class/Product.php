@@ -14,7 +14,6 @@ class Product{
      
         $results = $query->fetchAll(PDO::FETCH_ASSOC);
 
-
         $html = "";
         foreach($results as $product){
             $productName = $product['product_name'];

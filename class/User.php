@@ -8,7 +8,6 @@ class User{
 
     }
     public function getId($email){
-        
         $sql = "SELECT * FROM users WHERE email=:email";
         $query = $this->con->prepare($sql);
         $query->bindParam(":email", $email);
